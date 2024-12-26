@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortak Hatim Paylaşımı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ortak Hatim</h1>
+    </header>
+    <main>
+        <div id="login-container">
+            <input type="password" id="password" placeholder="Şifreyi girin">
+            <button id="login-button">Giriş Yap</button>
+            <p id="error-message" class="hidden">Hatalı şifre, lütfen tekrar deneyin.</p>
+        </div>
+        <div id="hatim-container" class="hidden">
+            <button id="add-hatim-button">Yeni Hatim Ekle</button>
+            <div id="hatims"></div>
+        </div>
+    </main>
+    <footer>
+        <p>© Ortak Hatim 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

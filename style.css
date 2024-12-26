@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+}
+header h1 {
+    margin: 0;
+}
+#hatim-container .hatim {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+}
+.hatim h2 {
+    margin-top: 0;
+}
+.hatim ul {
+    list-style: none;
+    padding: 0;
+}
+.hatim ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+.hatim ul li input[type="text"] {
+    width: 40%;
+    padding: 0.5em;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+#error-message {
+    color: red;
+    font-size: 0.9em;
+}
+#error-message.hidden {
+    display: none;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f1f1f1;
+}
